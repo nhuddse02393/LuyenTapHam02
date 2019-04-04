@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let input = parseFloat(prompt("Nhập bán kính hình tròn: "));
+    const PI = 3.14;
+    alert("Chu vi hình tròn bằng "+tinhChuVi(input)+", diện tích bằng "+tinhDienTich(input));
+
+    function tinhDienTich(num) {
+        return (num*num*PI);
+    }
+
+    function tinhChuVi(num) {
+        return (num*2*PI);
+    }
+    
+</script>
+</body>
+</html>

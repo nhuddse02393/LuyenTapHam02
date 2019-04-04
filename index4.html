@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let input = prompt("Nhập vào 1 số:");
+    if(isNum(input))
+        alert("Bạn vừa nhập 1 ký tự số!");
+    else
+        alert("Bạn vừa nhập 1 ký tự không phải số!");
+    function isNum(num) {
+        if(num.charCodeAt(0)>=48 && num.charCodeAt(0)<=57)
+            return true;
+        else
+            return false;
+    }
+
+</script>
+</body>
+</html>
